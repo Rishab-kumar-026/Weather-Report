@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="Enter your City name">
+            <button class="search_button"><img src="images/search.png" alt="search"></button>
+        </div>
+        <div class="weather">
+            <img src="images/drizzle.png" class="weather_img">
+            <div class="temp">0°c</div>
+            <div class="city">City</div>
+
+            <div class="weather_details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div class="details">
+                        <p class="humidity">0 %</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div class="details">
+                        <p class="wind">0 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
